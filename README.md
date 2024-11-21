@@ -30,6 +30,7 @@ To install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
 ## Results
 The experiments yielded promising results:
 
@@ -41,12 +42,11 @@ The experiments yielded promising results:
 - Reducing the number of features by **35%** (from 11 to 7) resulted in only a **1.5% drop in accuracy**.
 - Training time for the reduced-data model was **halved**, demonstrating the efficiency of incorporating domain knowledge into model design.
 
-## Detailed Report
-A comprehensive project report detailing the methodology, results, and analysis is included in the repository. Refer to **`Clotan Paul report.pdf`** for an in-depth understanding.
-
 ## Dataset
 The dataset used for this project can be found on Kaggle:  
 [Weather Dataset - Rattle Package](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package/data)
 
 ## Conclusion
 This project successfully demonstrates the potential of using **domain knowledge** to design efficient models with reduced data. The findings highlight the effectiveness of **Bayesian Networks** in weather prediction tasks, offering insights into trade-offs between model complexity, data availability, and performance.
+A comprehensive project report detailing the methodology, results, and analysis is included in the repository. Refer to **`Clotan Paul report.pdf`** for an in-depth understanding.
+
